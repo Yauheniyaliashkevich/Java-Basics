@@ -16,7 +16,7 @@ public class CreatingNewFiles {
 
     String path =System.getProperty("user.dir")+"/Files/myFile.xlsx";
     System.out.println(path);
-    XSSFWorkbook xssfWorkbook=new XSSFWorkbook();
+    XSSFWorkbook xssfWorkbook=new XSSFWorkbook(); //create new file
     Sheet sheet =xssfWorkbook.createSheet("Sheet1");
     Row row=sheet.createRow(0);
         Cell cell=row.createCell(0);

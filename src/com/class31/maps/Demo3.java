@@ -11,7 +11,7 @@ public class Demo3 {
         groceries.put("potato",10.0);
 
         Set< Map.Entry<String,Double>> entrySet  =groceries.entrySet();
-        LinkedList <Map.Entry<String ,Double>> linkedList = new LinkedList<>(entrySet);
+        //LinkedList <Map.Entry<String ,Double>> linkedList = new LinkedList<>(entrySet);
         for (Map.Entry <String,Double> entry:entrySet
              ) {
             System.out.println(entry.getKey()+" "+entry.getValue());
