@@ -1,4 +1,4 @@
-package com.class33;
+package com.class33.WorkingWithFiles;
 
 public class Person {
     String firstName;
